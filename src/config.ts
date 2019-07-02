@@ -52,7 +52,7 @@ export const CACHE_CHECK_PERIOD = process.env.CACHE_CHECK_PERIOD
   ? parseInt(process.env.CACHE_CHECK_PERIOD)
   : 1000;
 
-// Email
+// Email credentials
 export const FRONTEND_URL = process.env.FRONTEND_URL || "https://example.com";
 export const SES_EMAIL = process.env.SES_EMAIL || "";
 export const SES_REGION = process.env.SES_REGION || "eu-west-1";
